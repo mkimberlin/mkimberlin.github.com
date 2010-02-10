@@ -1,0 +1,65 @@
+@CHARSET "ISO-8859-1";
+
+@font-face {
+  font-family: maxine;
+  src: url(../fonts/maxine.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: fictionalhead;
+  src: url(../fonts/fh_script.otf);
+}
+
+
+.logo {
+  background: url(../images/name.png);
+  height: 93px;
+  width: 420px;
+}
+
+.logotext {
+  position: relative;
+  font-size: 4em;
+  top: 50px;
+  left: 175px;
+  color: #136679;
+}
+
+body {
+  background-color: #202020;
+  color: #21505B;
+  font-family: fictionalhead;
+  font-size: 1em;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+p, ul {
+  position: relative;
+  font-size: 2em;
+  margin-left: 30px;
+  margin-right: 20px;
+}
+
+a {
+  color: #936333;
+  text-decoration: none;
+}
+
+a:active, a:hover {
+  color: #7F5B08;
+}
+
+.disclaimer {
+  position: relative;
+  left: 50px;
+  top: 20px;
+  font-size: 1.7em;
+}
+
+h3 {
+  color: #136679;
+  font-size: 4em;
+  margin-top: 20px;
+  margin-bottom: -30px;
+}
