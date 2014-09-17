@@ -34,4 +34,8 @@ window.onanchorchange = function () {
     showDiv($(hash));
 };
 
-window.onanchorchange();
+window.onresize = function() {
+    if(window.location.hash.indexOf('calendar') > -1 && window.navigator.userAgent.indexOf("MSIE ") < 0) {
+        window.location.reload();
+    }
+}
