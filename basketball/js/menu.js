@@ -39,3 +39,9 @@ window.onresize = function() {
         window.location.reload();
     }
 }
+
+function collapseMenu() {
+    $('.navbar-collapse').collapse('hide');
+}
+
+$('.navbar-collapse li:not(.dropdown) a').click(collapseMenu);
