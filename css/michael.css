@@ -1,3 +1,4 @@
+/* For color consideration: http://paletton.com/#uid=12n0u0k58ll1Cwl3kq978gV9jb2 */
 @CHARSET "ISO-8859-1";
 
 @font-face {
@@ -26,7 +27,7 @@
 }
 
 body {
-  background-color: #7b723f;
+  background-color: #E9EEE2;
   color: #21505B;
   font-family: fictionalhead;
   font-size: 1em;
@@ -48,7 +49,7 @@ p {
   margin-top: 20px;
   margin-right: 260px;
   padding: 0 10px 5px 10px;
-  background-color: #8e8e62;
+  background-color: #BBC2AE;
 }
 
 #sidebarwrapper {
@@ -59,7 +60,7 @@ p {
 }
 
 #titlewrapper {
-  background-color: #8e8e62;
+  background-color: #E9EEE2;
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 20px;
@@ -67,7 +68,7 @@ p {
 
 .sidebar {
   margin-top: -10px;
-  background-color: #8e8e62;
+  background-color: #BBC2AE;
   padding-left: 10px;
   padding-right: 10px;
 }
